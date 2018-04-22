@@ -1,5 +1,6 @@
 package com.pg;
 
+import com.pg.App
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +34,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue( App.calculateSquare(2) == 4);
     }
 }
