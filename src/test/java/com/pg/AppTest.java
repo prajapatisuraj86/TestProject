@@ -14,6 +14,8 @@ public class AppTest
 	@Test
     public void testApp()
     {
-		Assert.assertEquals(App.calculateSquare(2) == 4);
+		App ex1 = new App();
+		
+		Assert.assertNotEquals(ex1.calculateSquare(2) == 5);
     }
 }

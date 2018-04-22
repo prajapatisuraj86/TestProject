@@ -12,7 +12,7 @@ public class App
         
     }
     
-    public static int calculateSquare(int i) {
+    public int calculateSquare(int i) {
     	return i*i;
     }
 }
