@@ -16,6 +16,6 @@ public class AppTest
     {
 		App ex1 = new App();
 		
-		Assert.assertEquals(ex1.calculateSquare(2), 5);
+		Assert.assertEquals(ex1.calculateSquare(2), 4);
     }
 }
